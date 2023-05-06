@@ -3,7 +3,7 @@
 
 /* ROOT-STYLES */
 
-:root{
+:root{ 
     --header-height: 3rem;
 
     /* ---colors---- */
@@ -17,7 +17,7 @@
 
     /* ----typography---- */
     --body-font: 'Poppins', sans-serif;
-    --h1-font-size: 1.5rem;
+    --h1-font-size: 2.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: .938rem;
@@ -128,6 +128,7 @@ img{
 /* ---------navigation--------- */
 .nav{
     height: var(--header-height);
+    margin-top: -2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -206,10 +207,11 @@ img{
 
 .home-data{
     gap: .5rem;
-    text-align: center;
+    margin-top: 1rem;
+    text-align: justify;
 }
 
-.home-img{
+/* .home-img{
     height: 125px;
     width: 125px;
     border-radius: 50%;
@@ -217,7 +219,7 @@ img{
     justify-self: center;
     object-fit: cover;
     object-position: center;
-}
+} */
 
 .home-title{
     font-size: var(--h1-font-size);
@@ -500,7 +502,7 @@ img{
 .cv-button-dsktop{
     display: inline-block;
      position: absolute;
-    top: 2.2rem;
+    top: 1rem;
     left: 0;
     font-size: 1.2rem;
     color: var(--text-color);
@@ -602,7 +604,7 @@ img{
 .dark-mode{
     position: absolute;
     right: 0;
-    top: 2.2rem;        
+    top: 1rem;        
     display: flex;
     color: var(--text-color);
     font-size: 1.2rem;
